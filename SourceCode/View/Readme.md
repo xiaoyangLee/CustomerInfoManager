@@ -1,1 +1,2 @@
-这里主要存放项目的窗体文件。
+This soft is my java lesson's achivement.It is not perfect ,but I use my knowledge through developing it.
+I push the view source to this folder.
