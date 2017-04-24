@@ -6,13 +6,13 @@ import java.sql.ResultSet;
 import com.lxy.customerinfomanager.model.User;
 
 /**
- * �û������ݿ������
+ * 用户的数据库操作类
  * @author xiaoyang
  *
  */
 public class UserDal {
 	/**
-	 * �û���¼��֤
+	 * 用户登录验证
 	 * @param con
 	 * @param user
 	 * @return
@@ -35,3 +35,4 @@ public class UserDal {
 		return ResultUser;		
 	}
 }
+//由于是验证用户登录的操作，其实也原本打算放到Util目录下，但是那里都是static function，而且这个牵涉到数据库操作，就放到了这里。
